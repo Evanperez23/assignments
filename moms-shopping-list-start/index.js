@@ -25,15 +25,11 @@ form.addEventListener("submit", (event) => {
     editBtn.addEventListener("click", () =>{
         var changeItem = document.createElement("input")
         newItem.append(changeItem)
-        var ok = document.createElement("button")
-        ok.textContent = "OK"
-        newItem.append(ok)
+        var save = document.createElement("button")
+        save.textContent = "save"
+        newItem.append(save)
 
         let editItem = changeItem.textContent
-
-        ok.addEventListener("submit", (event) => {
-            event.preventDefault()
-        }
 
     })
 
