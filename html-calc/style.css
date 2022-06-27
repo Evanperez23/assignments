@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(109, 199, 199);
+}
+
+#add{
+    background-color: blue;
+    display: inline-block;
+    margin-left: 100px;
+    padding: 5px
+}
+
+#subtract{
+   background-color: red;
+   display: inline-block;
+   margin-left: 500px;
+   padding: 5px
+
+}
+
+#multiply{
+   background-color: green;
+   display: inline-block;
+   margin-left: 550px;
+   margin-top: 50px;
+   padding: 5px
+}
+
+#header{
+   border: 4px groove ;
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+   text-align: center;
+   
+}
